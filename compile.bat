@@ -1,0 +1,2 @@
+g++.exe -o %cd%\bin\main.exe -O4 -std=c++11 %cd%\src\main.cpp %cd%\src\player.cpp %cd%\src\bird.cpp %cd%\src\platform.cpp -I C:\MinGW\include\ncurses\ -I C:\SFML-2.4.2\include\ -L C:\SFML-2.4.2\lib\ -I %cd%\include\ -lncurses -lsfml-window-s -lgdi32 -lopengl32 -lsfml-system-s  -lwinmm -DSFML_STATIC
+Pause
